@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+</title>
+<style>
+</style>
+</head>
+<body>
+<script>
+   let mn ='https://cat-fact.herokuapp.com/facts';
+   const fd = async (mn)=>{
+    let m1,m2;
+       m1 = await fetch(mn);
+       alert(m1);
+       m2 = await m1.json();
+       alert(m2);
+    
+   };
+</script>
+Hello 
+</body>
+</html>                 
